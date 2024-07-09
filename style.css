@@ -1,10 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* box-sizing: border-box; */
     background-color: #000;
     color: white;
 }
+
+
+
+/* container */
 .box{
     display: flex;
     flex-direction: row;
@@ -12,13 +15,19 @@
     background-color: black;
     overflow: hidden;
 }
-/* side partttt */
+
+
+
+/* container's side box styling */
 .side{
     /* border: 2px solid blue; */
     width: 23rem;
     margin: 0.5rem;
     border-radius: 1%;
 }
+
+
+/* side box1 */
 .box1{
     /* border: 2px solid red; */
     height: 9rem;
@@ -43,6 +52,9 @@
     margin: 12px;
     margin-right: 20px;
 }
+
+
+/* side box2 */
 .box2{
     height: 12rem;
     /* border: 2px solid yellow; */
@@ -116,6 +128,10 @@
     margin-bottom: 2px;
     margin-left: 2px;
 }
+
+
+
+/* container's next box -- main styling*/
 .main{
     /* border: 2px solid red; */
     flex: 1;
@@ -133,6 +149,8 @@
     width: 100%;
     height: 4.5rem;
 }
+
+
 /* nav-bar */
 .nav-bar{
     display: flex;
@@ -169,6 +187,8 @@
     margin: 0px 2rem;
     cursor: pointer;
 }
+
+
 /* button */
 .btn {
     color: #000;
@@ -184,17 +204,16 @@
     cursor: pointer;
     transition: transform 0.1s ease-in-out; /* Added transition for smooth scaling */
 }
-
 .btn:hover {
     transform: scale(1.1); /* Increases the size by 10% on hover */
 }
-
 .btn2{
     color: white;
     background-color:black;
     font-weight: bold;
     margin-right: 1px;
 }
+
 
 /* card design */
 .card-container{
@@ -250,8 +269,9 @@ h2:hover{
     background-color: #252525;
 }
 
-/* footer section */
 
+
+/* footer section */
 .footer{
     display: flex;
     /* justify-content: space-evenly; */
