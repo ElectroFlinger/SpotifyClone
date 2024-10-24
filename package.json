@@ -1,0 +1,15 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "This project is a responsive clone of the Spotify web player, implemented using HTML and CSS.\r It aims to replicate the look and feel of the original Spotify interface.",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve public"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
